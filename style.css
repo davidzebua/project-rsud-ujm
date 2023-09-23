@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #46B4A4;
+    color: #FEFEFE;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.hero .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.heading {
+    text-align: center;
+    margin: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.heading p {
+    margin: 10px;
+}
+
+/* container start here */
+.contaier {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.contaier .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px
+}
+.contaier .box-container .box {
+    border-radius: 20px;
+    background: #FEFEFE;
+    color: black;
+    text-align: center;
+    padding: 30x 20px;
+}
+.contaier .box-container .box img {
+    width: 95px;
+    height: 95px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.contaier .box-container .box p {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+/* Container end here */
+
+/* Button start */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 56px;
+    background-color: #FEFEFE;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 23px;
+}
+.custom-button i {
+    margin-right: 5px;
+    color: #58A6D0;
+}
+/* button end */
+
+/* custom-button-wa */
+.container-content {
+    text-align: center;
+    background: #58A6D0;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 10%;
+    height: 150px;
+  }
+.container-content h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+.container-content .custom-button-wa {
+    color: #FEFEFE;
+    font-size: 20px;
+    padding-bottom: 10px;
+    background: #60D66A;
+    border-radius: 40px 10px 40px 10px;
+    width: 395px;
+    height: 75px;
+    padding: 12px 31px 12px 31px;
+
+}
+.container-content .fa-brands.fa-whatsapp {
+    font-size: 30px;
+}
+
+/* footer */
+.text-right {
+    background: #33877B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 61px;
+    gap: 5px;
+}
+
+/* maps */
+.content {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .left {
+    display: block;
+    font-size: 20px;
+    display: block;
+}
+.content .left .social-icon {
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 30%;
+}
+
+.content .left .social-icon a {
+    color: #FEFEFE;
+    margin-top: 30px;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.content .left .social-icon .instagram-icon{
+    color: #E4405F;
+}
+.content .left .social-icon .whatsapp-icon{
+    color: green;
+
+}
+.content .left .social-icon .facebook-icon{
+    color: #1877F2;
+}
+
+
+
